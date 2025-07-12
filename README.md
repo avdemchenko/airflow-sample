@@ -14,37 +14,7 @@ Before you begin, ensure you have the following installed:
 
 You can set up and run the Airflow environment using either a local Python setup or Docker Compose. Choose the option that best suits your needs.
 
-### Option 1: Local Python Environment
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/avdemchenko/airflow-sample.git
-   cd airflow-sample
-   ```
-
-2. **Create and activate a virtual environment**:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
-
-3. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Initialize the Airflow database**:
-   ```bash
-   airflow db init
-   ```
-
-5. **Start the Airflow webserver and scheduler**:
-   ```bash
-   airflow webserver -p 8080 &
-   airflow scheduler &
-   ```
-
-### Option 2: Docker Compose
+### Docker Compose
 
 1. **Clone the repository**:
    ```bash
