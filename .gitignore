@@ -327,6 +327,7 @@ paket-files/
 .venv
 __pycache__/
 *.pyc
+dags/.env
 
 # Cake - Uncomment if you are using it
 # tools/**
